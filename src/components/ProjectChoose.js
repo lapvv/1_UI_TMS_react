@@ -1,13 +1,13 @@
 import React from "react";
-import { Nav, Select } from "react-bootstrap";
+import { Nav, Row } from "react-bootstrap";
 
 const ProjectChoose = () => {
   return (
-    <Nav className="nav justify-content-end">
+    <Nav className="nav justify-content-end mt-3">
       <div className="col-3">
         <select
           defaultValue="0"
-          className="form-select form-select-lg mb-3 "
+          className="form-select form-select-lg mb-3"
           aria-label=".form-select-lg"
         >
           <option value="0">Выбрать проект</option>

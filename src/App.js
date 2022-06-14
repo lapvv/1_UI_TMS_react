@@ -1,5 +1,5 @@
 import { Container, Row, Nav, Tab } from "react-bootstrap";
-import "./App.css";
+// import "./App.css";
 import ProjectChoose from "./components/ProjectChoose";
 import LocatorCatTabs from "./components/LocatorCatTabs";
 import TreeView from "./components/TreeView";

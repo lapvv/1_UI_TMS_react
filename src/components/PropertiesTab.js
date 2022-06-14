@@ -1,5 +1,7 @@
 import React from "react";
 import { Form, FormSelect, Button } from "react-bootstrap";
+import glass from "../img/magnifier-glass.png";
+import copy from "../img/copy-link.png";
 
 const PropertiesTab = () => {
   return (
@@ -27,7 +29,7 @@ const PropertiesTab = () => {
           <div>
             <input
               className="form-control"
-              style={{ width: 800 }}
+              style={{ width: 680 }}
               type="text"
               id="xpath"
             />
@@ -46,9 +48,13 @@ const PropertiesTab = () => {
               readOnly
             />
           </div>
-          <Button style={{ width: 40 }} className="p-1">
+          <Button style={{ width: 34 }} className="p-1" variant="light">
             {" "}
-            <img src="./img/copy-solid.svg" alt="copy button" />{" "}
+            <img
+              src={copy}
+              alt="copy button"
+              style={{ width: 24, height: 24 }}
+            />{" "}
           </Button>
         </div>
         <div className="d-flex flex-row justify-content-between mt-2">
@@ -65,10 +71,7 @@ const PropertiesTab = () => {
           </div>
         </div>
         <div className="div_inline">
-          <img
-            className="img_inline"
-            src="src\img\magnifying-glass-solid.svg"
-          />
+          <img className="img_inline" src={glass} alt="search" />
           <input
             className="input_inline"
             type="text"
