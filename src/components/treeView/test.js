@@ -1,6 +1,7 @@
 import React from "react";
 import TreeMenu from "react-simple-tree-menu";
 import TreeData from "./TreeData";
+import "./main.css";
 
 const test = () => {
   return (
